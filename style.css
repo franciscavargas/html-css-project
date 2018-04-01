@@ -1,13 +1,28 @@
-#articles:first-child {
-  background-color: #fafafa;
-  box-shadow: 0 10px 3px rgba(0, 0, 0, 0.95);
-  border-radius: 3px;
+article {
+  margin: 20px 20px;
 }
 
-#articles:first-child h3{
+article:first-child {
+  background-color: #fafafa;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 3px;
+  padding: 10px;
+}
+
+article:first-child h3{
   color: red;
 }
 
-#articles:first-child p {
+article:first-child p {
   font-weight: bold;
+}
+
+img {
+  max-width: 500px;
+}
+
+footer {
+  background-color: red;
+  color: white;
+  text-align: center;
 }
